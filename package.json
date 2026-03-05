@@ -1,0 +1,51 @@
+{
+  "name": "portfolio",
+  "homepage": "https://bennettdcsm.github.io/DGME168-Noa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build2": "vite build && cp -r dist/. .",
+    "lint": "eslint src eslint.config.js",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "copyHTML": "cp dist/index.html ./index.prod.html",
+    "copyAssets": "cp -r dist/assets . && cp -r dist/models .",
+    "build3": "npm run build && npm run copyHTML && npm run copyAssets"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.7",
+    "@react-three/fiber": "^9.1.2",
+    "@tailwindcss/vite": "^4.1.4",
+    "cobe": "^0.6.3",
+    "framer-motion": "^12.9.2",
+    "gh-pages": "^6.3.0",
+    "maath": "^0.10.8",
+    "motion": "^12.9.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-game-kit": "^1.0.6",
+    "react-responsive": "^10.0.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scroll": "^1.9.3",
+    "tailwind-merge": "^3.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.0",
+    "@typescript-eslint/parser": "^8.46.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.3.1"
+  }
+}
