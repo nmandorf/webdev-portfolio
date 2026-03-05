@@ -1,7 +1,6 @@
 function normalizePublicPath(path: string, rootFolder: string): string {
   return path
     .replace(/^\/+/, "")
-    .replace(/^DGME168-Noa\//, "")
     .replace(new RegExp(`^${rootFolder}/`), "");
 }
 
