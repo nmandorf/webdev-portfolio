@@ -42,7 +42,6 @@ export default function Contact() {
                             autoComplete='off'
                             required/>
                     </div>
-                    <button className='w-full'></button>
                 </form>
             </div>
 
