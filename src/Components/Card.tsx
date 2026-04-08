@@ -15,6 +15,7 @@ export default function Card(props) {
             drag
             dragConstraints={containerRef}
             dragElastic={1}
+            alt={image}
             />
     ) : (
         <motion.div
