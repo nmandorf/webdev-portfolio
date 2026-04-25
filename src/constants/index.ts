@@ -9,44 +9,6 @@ import { resolveAsset } from "../utils/assetUrl";
 export const myProjects: ProjectItem[] = [
   {
     id: 1,
-    title: "Website For College of San Mateo",
-    description:
-      "Facilitates the display of student work on the College of San Mateo website, allowing visitors to browse, filter, and interact with student project portfolios through an interactive online gallery.",
-    subDescription: [
-      "• Developed a responsive frontend using React and Tailwind CSS to create an interactive gallery showcasing student projects.",
-      "• Collaborated with the team via GitHub—managing branches, pull requests, and code reviews—to streamline development workflow.",
-      "• Built carousel components to elegantly present student work, enabling seamless navigation through project portfolios.",
-      "• Leveraged a JSON-driven data structure to simplify content management, allowing easy updates to student project listings.",
-    ],
-    href: "",
-    logo: "",
-    image: resolveAsset("projects/accessories.jpg"),
-    year: "2025",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: resolveAsset("logos/react.svg"),
-      },
-      {
-        id: 2,
-        name: "GitHub",
-        path: resolveAsset("logos/github.svg"),
-      },
-      {
-        id: 3,
-        name: "CSS",
-        path: resolveAsset("logos/css3.svg"),
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: resolveAsset("logos/tailwindcss.svg"),
-      },
-    ],
-  },
-  {
-    id: 2,
     title: "AI.SMCCD.EDU",
     description:
       "A district AI hub page built with Bootstrap 5 and JavaScript, designed in Figma.",
@@ -79,6 +41,52 @@ export const myProjects: ProjectItem[] = [
       },
     ],
   },
+  {
+    id: 2,
+    title: "Ockham Official",
+    description:
+      "Built and maintain the Ockham Official website, a live production website for a music artist, managing the full " +
+      "frontend experience" + "from design implementation to long-term maintenance. Focused on responsive design, " +
+      "reusable UI systems, accessibility, and production-ready content management while supporting ongoing business " +
+      "and promotional needs.",
+    subDescription: [
+      "• Built and maintain a live production website using React, Next.js, TypeScript, and responsive frontend development for a music artist’s official platform",
+      "• Manage ongoing content updates including live shows, music releases, media assets, promotional content, and user-facing website improvements",
+      "• Developed reusable UI components, scalable frontend architecture, and structured workflows to improve long-term maintainability and faster iteration",
+      "• Improved accessibility, cross-browser performance, and mobile responsiveness while handling debugging, frontend QA, and production issue resolution",
+    ],
+    href: "https://www.ockhamofficial.com/",
+    logo: "",
+    image: resolveAsset("projects/ockham.png"),
+    year: "2026",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: resolveAsset("logos/react.svg"),
+      },
+      {
+        id: 2,
+        name: "GitHub",
+        path: resolveAsset("logos/github.svg"),
+      },
+      {
+        id: 3,
+        name: "CSS",
+        path: resolveAsset("logos/css3.svg"),
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: resolveAsset("logos/tailwindcss.svg"),
+      },
+      {
+        id: 4,
+        name: "Cursor",
+        path: resolveAsset("logos/cursor.svg"),
+      },
+    ],
+  }
 ];
 
 export const mySocials: SocialItem[] = [
