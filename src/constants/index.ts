@@ -103,7 +103,7 @@ export const myProjects: ProjectItem[] = [
     ],
     href: "https://paymepal.mandorf.org",
     logo: "",
-    image: resolveAsset("projects/ockham.png"),
+    image: resolveAsset("projects/paymepal-cover.png"),
     year: "2026",
     tags: [
       {
