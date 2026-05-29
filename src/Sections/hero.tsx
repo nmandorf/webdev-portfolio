@@ -9,8 +9,6 @@ import {Suspense} from "react";
 import Loader from "../Components/Loader";
 import {SpaceShip} from "../Components/SpaceShip";
 
-
-
 export default function Hero() {
 
     const isMobile = useMediaQuery({maxWidth: 853});

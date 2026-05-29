@@ -86,6 +86,47 @@ export const myProjects: ProjectItem[] = [
         path: resolveAsset("logos/cursor.svg"),
       },
     ],
+  },
+  {
+    id: 3,
+    title: "PayMePal",
+    description:
+      "Built PayMePal, a full-stack trip expense tracker that helps groups log shared costs, split balances, and settle up " +
+      "from one clean dashboard. Designed and implemented the frontend experience across web and mobile while building " +
+      "shared TypeScript business logic for expense tracking, group trips, settlement calculations, and production-ready " +
+      "user flows.",
+    subDescription: [
+      "• Built a full-stack expense tracking app using React Native, Next.js, TypeScript, Firebase, and shared cross-platform business logic",
+      "• Designed group trip workflows for creating trips, adding shared expenses, viewing balances, and settling payments between travelers",
+      "• Developed reusable UI components, responsive dashboard layouts, and structured state management for maintainable web and mobile experiences",
+      "• Implemented expense splitting, settlement logic, authentication/data flows, debugging, QA, and production deployment for a live app",
+    ],
+    href: "https://paymepal.mandorf.org",
+    logo: "",
+    image: resolveAsset("projects/ockham.png"),
+    year: "2026",
+    tags: [
+      {
+        id: 1,
+        name: "React Native",
+        path: resolveAsset("logos/react.svg"),
+      },
+      {
+        id: 2,
+        name: "GitHub",
+        path: resolveAsset("logos/github.svg"),
+      },
+      {
+        id: 3,
+        name: "CSS",
+        path: resolveAsset("logos/css3.svg"),
+      },
+      {
+        id: 4,
+        name: "Cursor",
+        path: resolveAsset("logos/cursor.svg"),
+      },
+    ],
   }
 ];
 
