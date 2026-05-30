@@ -24,7 +24,7 @@ export default function About() {
                             Hi I'm Noa Mandorf
                         </p>
                         <p className='subtext'>
-                            I’m a front-end web and UI developer from Sweden with a passion for crafting clean, intuitive interfaces. I thrive on learning new technologies and constantly refining my workflow to build better projects. Patient by nature, I love diving into challenges, whether that’s perfecting a design, leveling up in video games, or spinning tracks as a DJ in my downtime.
+                            I’m a frontend-focused web designer and UI developer from Sweden with a passion for crafting clean, intuitive interfaces. I thrive on learning new technologies and constantly refining my workflow to build better projects. Patient by nature, I love diving into challenges, whether that’s perfecting a design, leveling up in video games, or spinning tracks as a DJ in my downtime.
                         </p>
                         <div className='absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo op'/>
                     </div>
@@ -69,7 +69,7 @@ export default function About() {
                 <motion.div className='grid-default-color grid-5' viewport={{ once: true, amount: 0.3 }} initial={{opacity:0, y:50}} whileInView={{opacity: 1, y:0}} transition={{delay:.3, duration:.5}}>
                     <div className='w-[50%]'>
                         <p className='headtext'>My Hobbies</p>
-                        <p className='subtext'> I enjoy learning more about the developing world, frameworks, styling libraries,
+                        <p className='subtext'> I enjoy learning more about frontend development, frameworks, and styling libraries.
                             but I do like my games from time to time.</p>
                     </div>
                     <div className='absolute inset-y-0 md:inset-y-0 w-full h-full start-[20%] md:scale-125'>

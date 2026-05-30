@@ -25,7 +25,7 @@ export const Timeline = ({
     const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
     return (
         <div className="c-space section-spacing" ref={containerRef}>
-            <h2 className='text-heading'>Experience</h2>
+            <h2 className='text-heading'>Work Experience</h2>
             <div ref={ref} className="relative pb-20">
                 {data.map((item, index) => (
                     <motion.div

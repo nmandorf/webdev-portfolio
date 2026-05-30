@@ -13,9 +13,9 @@ export default function App() {
             <div className="container mx-auto max-w-7xl md:items-start md:justify-start overflow-hidden">
                 <Navbar/>
                 <Hero/>
-                <About/>
                 <Projects/>
                 <Experience/>
+                <About/>
                 <Contact/>
                 <Footer/>
             </div>

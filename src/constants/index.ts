@@ -161,7 +161,7 @@ export const experiences: ExperienceItem[] = [
     ],
   },
   {
-    title: "Audiovisual Technician ",
+    title: "Audiovisual Technician",
     job: "Preferred Connections",
     date: "2024-Present",
     contents: [

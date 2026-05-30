@@ -5,7 +5,7 @@ import {AuroraText} from "./AuroraText";
 
 export default function HeroText() {
 
-    const words = ['Interactive', 'Dynamic', 'User Friendly'];
+    const words = ['Responsive', 'Accessible', 'User-Friendly'];
     const variants = {
         hidden: {opacity: 0, x: -50},
         visible: {opacity: 1, x: 0},
@@ -32,7 +32,7 @@ export default function HeroText() {
                         animate="visible"
                         transition={{delay: 1.2}}
                     >
-                        A Swedish Developer <br/>
+                        Frontend Designer / UI Developer <br/>
                         Who Loves Building
                     </motion.p>
                     <motion.div

@@ -27,7 +27,7 @@ export default function Contact() {
                             type='email'
                             name='email'
                             className='field-input field-input-focus'
-                            placeholder='Full.Name@email.com'
+                            placeholder='name@email.com'
                             autoComplete='email'
                             required/>
                     </div>
